@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_21467a6dc6d88e079ab1868f13b8705f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_21467a6dc6d88e079ab1868f13b8705f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_21467a6dc6d88e079ab1868f13b8705f = L.map(
+                "map_21467a6dc6d88e079ab1868f13b8705f",
+                {
+                    center: [18.481667, -69.755667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_619df351f5e9c22b9ed984c1fb9e2e2a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_21467a6dc6d88e079ab1868f13b8705f);
+        
+    
+            var marker_cluster_be4731f166552d34fdd35e2d9023ff83 = L.markerClusterGroup(
+                {}
+            );
+            map_21467a6dc6d88e079ab1868f13b8705f.addLayer(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var marker_97558f5a480c5cf691f89e6449829513 = L.marker(
+                [18.481492, -69.755406],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_c0ed0848c8441057df6a23926cdff82b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97558f5a480c5cf691f89e6449829513.setIcon(icon_c0ed0848c8441057df6a23926cdff82b);
+        
+    
+        var popup_16ded3f043dcba643a68454d2e5d3d6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c28c916d7fbcbe8a41e9d7a63a35ef97 = $(`<div id="html_c28c916d7fbcbe8a41e9d7a63a35ef97" style="width: 100.0%; height: 100.0%;">Colmado El Gualdia</div>`)[0];
+            popup_16ded3f043dcba643a68454d2e5d3d6e.setContent(html_c28c916d7fbcbe8a41e9d7a63a35ef97);
+        
+
+        marker_97558f5a480c5cf691f89e6449829513.bindPopup(popup_16ded3f043dcba643a68454d2e5d3d6e)
+        ;
+
+        
+    
+    
+            var marker_796d46867ce47a50164b70a664d171bb = L.marker(
+                [18.48075, -69.821004],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_f21c450549ea1ace6137216521c0c084 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_796d46867ce47a50164b70a664d171bb.setIcon(icon_f21c450549ea1ace6137216521c0c084);
+        
+    
+        var popup_c5a7d76a9f105cbc09e0250dcdf16ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81688ad7532a0b722b7b7a8713144855 = $(`<div id="html_81688ad7532a0b722b7b7a8713144855" style="width: 100.0%; height: 100.0%;">Colmado los Muchachos</div>`)[0];
+            popup_c5a7d76a9f105cbc09e0250dcdf16ee0.setContent(html_81688ad7532a0b722b7b7a8713144855);
+        
+
+        marker_796d46867ce47a50164b70a664d171bb.bindPopup(popup_c5a7d76a9f105cbc09e0250dcdf16ee0)
+        ;
+
+        
+    
+    
+            var marker_9bc69b97ffbd2be781a8c3172f70b01f = L.marker(
+                [18.475319, -69.810046],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_1dc04321e958f315110af76e2003e6fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9bc69b97ffbd2be781a8c3172f70b01f.setIcon(icon_1dc04321e958f315110af76e2003e6fd);
+        
+    
+        var popup_7826293b7a7b4144ddfcb1790628b5e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c7afbe3a24bab2c37d7316261f8e904 = $(`<div id="html_1c7afbe3a24bab2c37d7316261f8e904" style="width: 100.0%; height: 100.0%;">Colmado Moronta</div>`)[0];
+            popup_7826293b7a7b4144ddfcb1790628b5e5.setContent(html_1c7afbe3a24bab2c37d7316261f8e904);
+        
+
+        marker_9bc69b97ffbd2be781a8c3172f70b01f.bindPopup(popup_7826293b7a7b4144ddfcb1790628b5e5)
+        ;
+
+        
+    
+    
+            var marker_a1cee2f224601aec8b65003fa2809ae2 = L.marker(
+                [18.476153, -69.813715],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_a6baca5b18da48f36b3ad4e02f3f9a9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1cee2f224601aec8b65003fa2809ae2.setIcon(icon_a6baca5b18da48f36b3ad4e02f3f9a9e);
+        
+    
+        var popup_95f652c5d3cca826d80708abd0821d08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ed7f4ca11159ba7504692cad90fb39a = $(`<div id="html_0ed7f4ca11159ba7504692cad90fb39a" style="width: 100.0%; height: 100.0%;">Colmado Makey</div>`)[0];
+            popup_95f652c5d3cca826d80708abd0821d08.setContent(html_0ed7f4ca11159ba7504692cad90fb39a);
+        
+
+        marker_a1cee2f224601aec8b65003fa2809ae2.bindPopup(popup_95f652c5d3cca826d80708abd0821d08)
+        ;
+
+        
+    
+    
+            var marker_f11a4d5294e6b1a58738ee8571998f31 = L.marker(
+                [18.475217, -69.803394],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_a7f7d1f430d88d613b018e9a26d1776d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f11a4d5294e6b1a58738ee8571998f31.setIcon(icon_a7f7d1f430d88d613b018e9a26d1776d);
+        
+    
+        var popup_2a0280cde6fa374c62826c930ed65023 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70acaa170771ee57040a836667e08ef4 = $(`<div id="html_70acaa170771ee57040a836667e08ef4" style="width: 100.0%; height: 100.0%;">Colmado Roamy</div>`)[0];
+            popup_2a0280cde6fa374c62826c930ed65023.setContent(html_70acaa170771ee57040a836667e08ef4);
+        
+
+        marker_f11a4d5294e6b1a58738ee8571998f31.bindPopup(popup_2a0280cde6fa374c62826c930ed65023)
+        ;
+
+        
+    
+    
+            var marker_324a05479584042fef78af21792d2b17 = L.marker(
+                [18.481383, -69.801141],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_d737f058ef5ec1081fab1e27edb9cf17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_324a05479584042fef78af21792d2b17.setIcon(icon_d737f058ef5ec1081fab1e27edb9cf17);
+        
+    
+        var popup_9c439613d2fc83e823053ec8252e3b11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13013782809b00907cfed8c614ab09a7 = $(`<div id="html_13013782809b00907cfed8c614ab09a7" style="width: 100.0%; height: 100.0%;">Colmado Raquel</div>`)[0];
+            popup_9c439613d2fc83e823053ec8252e3b11.setContent(html_13013782809b00907cfed8c614ab09a7);
+        
+
+        marker_324a05479584042fef78af21792d2b17.bindPopup(popup_9c439613d2fc83e823053ec8252e3b11)
+        ;
+
+        
+    
+    
+            var marker_e4135b804f87ca1ff3a87a7804c4a1c8 = L.marker(
+                [18.479491, -69.803008],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_d95c991e0c7854c135960669d1cc591d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e4135b804f87ca1ff3a87a7804c4a1c8.setIcon(icon_d95c991e0c7854c135960669d1cc591d);
+        
+    
+        var popup_55d847645c49bc32fb104956d563ad79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22f8ae5a1f69deb00fd8fb33bb082442 = $(`<div id="html_22f8ae5a1f69deb00fd8fb33bb082442" style="width: 100.0%; height: 100.0%;">Almacen La Fé</div>`)[0];
+            popup_55d847645c49bc32fb104956d563ad79.setContent(html_22f8ae5a1f69deb00fd8fb33bb082442);
+        
+
+        marker_e4135b804f87ca1ff3a87a7804c4a1c8.bindPopup(popup_55d847645c49bc32fb104956d563ad79)
+        ;
+
+        
+    
+    
+            var marker_e1004b4db31f9fe86a68fe092c74935f = L.marker(
+                [18.47499, -69.807392],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_319dadf1d976e542955b2b47ad122970 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1004b4db31f9fe86a68fe092c74935f.setIcon(icon_319dadf1d976e542955b2b47ad122970);
+        
+    
+        var popup_5f910dc3d36c9a5eca53edabe0c7fa4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0996187d8f09fcc433ba73d95ac897c5 = $(`<div id="html_0996187d8f09fcc433ba73d95ac897c5" style="width: 100.0%; height: 100.0%;">Colmado Anthony</div>`)[0];
+            popup_5f910dc3d36c9a5eca53edabe0c7fa4b.setContent(html_0996187d8f09fcc433ba73d95ac897c5);
+        
+
+        marker_e1004b4db31f9fe86a68fe092c74935f.bindPopup(popup_5f910dc3d36c9a5eca53edabe0c7fa4b)
+        ;
+
+        
+    
+    
+            var marker_cd9c6c2958ed7536710ede33926852ce = L.marker(
+                [18.47651, -69.808923],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_024200fbfdd7a074e46e7e7749131b21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd9c6c2958ed7536710ede33926852ce.setIcon(icon_024200fbfdd7a074e46e7e7749131b21);
+        
+    
+        var popup_b771e31df51073cb65c574032ed61407 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec745361dc6d1772acf9042409023438 = $(`<div id="html_ec745361dc6d1772acf9042409023438" style="width: 100.0%; height: 100.0%;">Colmado Braulio</div>`)[0];
+            popup_b771e31df51073cb65c574032ed61407.setContent(html_ec745361dc6d1772acf9042409023438);
+        
+
+        marker_cd9c6c2958ed7536710ede33926852ce.bindPopup(popup_b771e31df51073cb65c574032ed61407)
+        ;
+
+        
+    
+    
+            var marker_a4d74148c275e312f072fb81227f4e53 = L.marker(
+                [18.471707, -69.765819],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_43c423ae201f44a0de197bb8d0cde4c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4d74148c275e312f072fb81227f4e53.setIcon(icon_43c423ae201f44a0de197bb8d0cde4c1);
+        
+    
+        var popup_037e0c65a18dd85d8e2317a45c4690c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfe45fe004cea983e845ed72211ce298 = $(`<div id="html_dfe45fe004cea983e845ed72211ce298" style="width: 100.0%; height: 100.0%;">Colmado Nathan</div>`)[0];
+            popup_037e0c65a18dd85d8e2317a45c4690c9.setContent(html_dfe45fe004cea983e845ed72211ce298);
+        
+
+        marker_a4d74148c275e312f072fb81227f4e53.bindPopup(popup_037e0c65a18dd85d8e2317a45c4690c9)
+        ;
+
+        
+    
+    
+            var marker_d55ecf90c1e50b08b7d135cbf2dde50b = L.marker(
+                [18.478082, -69.757356],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_02b3289d0b81e73b3b7bb957b369da65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d55ecf90c1e50b08b7d135cbf2dde50b.setIcon(icon_02b3289d0b81e73b3b7bb957b369da65);
+        
+    
+        var popup_31bc86d63da39624808bc6b6eeea0db5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5940cfdc7442043ab39fc4afee590d9e = $(`<div id="html_5940cfdc7442043ab39fc4afee590d9e" style="width: 100.0%; height: 100.0%;">Colmado Aurora</div>`)[0];
+            popup_31bc86d63da39624808bc6b6eeea0db5.setContent(html_5940cfdc7442043ab39fc4afee590d9e);
+        
+
+        marker_d55ecf90c1e50b08b7d135cbf2dde50b.bindPopup(popup_31bc86d63da39624808bc6b6eeea0db5)
+        ;
+
+        
+    
+    
+            var marker_a8a2cbce2b095345541586806b6df80c = L.marker(
+                [18.477158, -69.746444],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_2162a20b26dc02e0c930ddafd56c0b6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8a2cbce2b095345541586806b6df80c.setIcon(icon_2162a20b26dc02e0c930ddafd56c0b6b);
+        
+    
+        var popup_db4d4f94db449db31978aed74536b7da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b4444e8cc3319b87e7cb94e6bef041f = $(`<div id="html_4b4444e8cc3319b87e7cb94e6bef041f" style="width: 100.0%; height: 100.0%;">Colmado La Católica</div>`)[0];
+            popup_db4d4f94db449db31978aed74536b7da.setContent(html_4b4444e8cc3319b87e7cb94e6bef041f);
+        
+
+        marker_a8a2cbce2b095345541586806b6df80c.bindPopup(popup_db4d4f94db449db31978aed74536b7da)
+        ;
+
+        
+    
+    
+            var marker_a0aa92569a35e851d11422a9c3bba785 = L.marker(
+                [18.479626, -69.744175],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_176b24a18a5bf59b3647750c8fb94007 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a0aa92569a35e851d11422a9c3bba785.setIcon(icon_176b24a18a5bf59b3647750c8fb94007);
+        
+    
+        var popup_a90d62f6cdacb703bb5199891e278537 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad313d53af05139a097a1a7ded77e5e2 = $(`<div id="html_ad313d53af05139a097a1a7ded77e5e2" style="width: 100.0%; height: 100.0%;">Colmado Cafetería Las Gemelas</div>`)[0];
+            popup_a90d62f6cdacb703bb5199891e278537.setContent(html_ad313d53af05139a097a1a7ded77e5e2);
+        
+
+        marker_a0aa92569a35e851d11422a9c3bba785.bindPopup(popup_a90d62f6cdacb703bb5199891e278537)
+        ;
+
+        
+    
+    
+            var marker_6e860cdd4af1817bb79c420d03cce643 = L.marker(
+                [18.480922, -69.743365],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_b4fb2ab966f297f0c2bcfafa0b1c1053 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e860cdd4af1817bb79c420d03cce643.setIcon(icon_b4fb2ab966f297f0c2bcfafa0b1c1053);
+        
+    
+        var popup_a5e8cb58821f8d6c9ea745754278b464 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b064187dbb88c26ffcf28d4faae0bf47 = $(`<div id="html_b064187dbb88c26ffcf28d4faae0bf47" style="width: 100.0%; height: 100.0%;">Minimarket Joshua</div>`)[0];
+            popup_a5e8cb58821f8d6c9ea745754278b464.setContent(html_b064187dbb88c26ffcf28d4faae0bf47);
+        
+
+        marker_6e860cdd4af1817bb79c420d03cce643.bindPopup(popup_a5e8cb58821f8d6c9ea745754278b464)
+        ;
+
+        
+    
+    
+            var marker_775026b627ab1128d4de8f2ea4b81301 = L.marker(
+                [18.479979, -69.743306],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_eb8173766f4dff5fee4a1922151799e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_775026b627ab1128d4de8f2ea4b81301.setIcon(icon_eb8173766f4dff5fee4a1922151799e6);
+        
+    
+        var popup_c4ab113283edaf6ae48f41e92d093f0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13703c40a4e2755918aee3e6e599f39e = $(`<div id="html_13703c40a4e2755918aee3e6e599f39e" style="width: 100.0%; height: 100.0%;">Minimarket Camila</div>`)[0];
+            popup_c4ab113283edaf6ae48f41e92d093f0c.setContent(html_13703c40a4e2755918aee3e6e599f39e);
+        
+
+        marker_775026b627ab1128d4de8f2ea4b81301.bindPopup(popup_c4ab113283edaf6ae48f41e92d093f0c)
+        ;
+
+        
+    
+    
+            var marker_9ef125029772db91585581ac0b7f36cf = L.marker(
+                [18.467484, -69.753477],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_2b09a6f3c12f1d5378e601e6e9a034c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ef125029772db91585581ac0b7f36cf.setIcon(icon_2b09a6f3c12f1d5378e601e6e9a034c9);
+        
+    
+        var popup_63cf64b88c9670c00944ef30d8c82a57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d07767a569b089d6a8278230d79ac65a = $(`<div id="html_d07767a569b089d6a8278230d79ac65a" style="width: 100.0%; height: 100.0%;">Colmado Suero</div>`)[0];
+            popup_63cf64b88c9670c00944ef30d8c82a57.setContent(html_d07767a569b089d6a8278230d79ac65a);
+        
+
+        marker_9ef125029772db91585581ac0b7f36cf.bindPopup(popup_63cf64b88c9670c00944ef30d8c82a57)
+        ;
+
+        
+    
+    
+            var marker_ddd48904bd01781ba852cc706cd8d756 = L.marker(
+                [18.48234, -69.758685],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_43785acd998d2da6a9b3b4656dc04996 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ddd48904bd01781ba852cc706cd8d756.setIcon(icon_43785acd998d2da6a9b3b4656dc04996);
+        
+    
+        var popup_55914746a8bd6fe025e60a9117ca60b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f1cd6845425c9afabcdc833eda704ad = $(`<div id="html_4f1cd6845425c9afabcdc833eda704ad" style="width: 100.0%; height: 100.0%;">Colmado los 4h</div>`)[0];
+            popup_55914746a8bd6fe025e60a9117ca60b0.setContent(html_4f1cd6845425c9afabcdc833eda704ad);
+        
+
+        marker_ddd48904bd01781ba852cc706cd8d756.bindPopup(popup_55914746a8bd6fe025e60a9117ca60b0)
+        ;
+
+        
+    
+    
+            var marker_4715308aabc655cdc0f372bae5014c28 = L.marker(
+                [18.476138, -69.758574],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_3ed368dd62967943ac6bdde04832f132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4715308aabc655cdc0f372bae5014c28.setIcon(icon_3ed368dd62967943ac6bdde04832f132);
+        
+    
+        var popup_33576b1ba4474c0119d56babf813c139 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b345ed669a88328a61a8252e50eeeee9 = $(`<div id="html_b345ed669a88328a61a8252e50eeeee9" style="width: 100.0%; height: 100.0%;">Supercolmado La gran Manzana</div>`)[0];
+            popup_33576b1ba4474c0119d56babf813c139.setContent(html_b345ed669a88328a61a8252e50eeeee9);
+        
+
+        marker_4715308aabc655cdc0f372bae5014c28.bindPopup(popup_33576b1ba4474c0119d56babf813c139)
+        ;
+
+        
+    
+    
+            var marker_6a8fe5d4596527493cabe243445292b9 = L.marker(
+                [18.482805, -69.758231],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_cb156c95fcaf069668f4f214759af8b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a8fe5d4596527493cabe243445292b9.setIcon(icon_cb156c95fcaf069668f4f214759af8b9);
+        
+    
+        var popup_2e0b86d0e39e762aa04122fcdad70b77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58d337ee0f16883b62c07dc38b13df98 = $(`<div id="html_58d337ee0f16883b62c07dc38b13df98" style="width: 100.0%; height: 100.0%;">Colmado Deysi</div>`)[0];
+            popup_2e0b86d0e39e762aa04122fcdad70b77.setContent(html_58d337ee0f16883b62c07dc38b13df98);
+        
+
+        marker_6a8fe5d4596527493cabe243445292b9.bindPopup(popup_2e0b86d0e39e762aa04122fcdad70b77)
+        ;
+
+        
+    
+    
+            var marker_3e14fd08a40c5f5a5a3f056aa4568d95 = L.marker(
+                [18.482523, -69.762088],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_a5ef1ae7a7d264cbd988eea632e2111d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e14fd08a40c5f5a5a3f056aa4568d95.setIcon(icon_a5ef1ae7a7d264cbd988eea632e2111d);
+        
+    
+        var popup_0471d4de88689b82c89b88e0c6b13746 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a751ba4e40eeac8c094fb783d2603bcf = $(`<div id="html_a751ba4e40eeac8c094fb783d2603bcf" style="width: 100.0%; height: 100.0%;">Supercolmado SanMiguel</div>`)[0];
+            popup_0471d4de88689b82c89b88e0c6b13746.setContent(html_a751ba4e40eeac8c094fb783d2603bcf);
+        
+
+        marker_3e14fd08a40c5f5a5a3f056aa4568d95.bindPopup(popup_0471d4de88689b82c89b88e0c6b13746)
+        ;
+
+        
+    
+    
+            var marker_bead57732c1d120ca165c3eda065bd27 = L.marker(
+                [18.476526, -69.752713],
+                {}
+            ).addTo(marker_cluster_be4731f166552d34fdd35e2d9023ff83);
+        
+    
+            var icon_94fc157c3989506e577bf98917f17ec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bead57732c1d120ca165c3eda065bd27.setIcon(icon_94fc157c3989506e577bf98917f17ec4);
+        
+    
+        var popup_9f08e85686815f0b4709050b89c56e5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d84e7548c8c7c29c618a145666431e6e = $(`<div id="html_d84e7548c8c7c29c618a145666431e6e" style="width: 100.0%; height: 100.0%;">Gimnasio Atlantis Fitnnes</div>`)[0];
+            popup_9f08e85686815f0b4709050b89c56e5e.setContent(html_d84e7548c8c7c29c618a145666431e6e);
+        
+
+        marker_bead57732c1d120ca165c3eda065bd27.bindPopup(popup_9f08e85686815f0b4709050b89c56e5e)
+        ;
+
+        
+    
+    
+            var marker_83630273cf35f3ae271dd0b874d39cb6 = L.marker(
+                [18.481667, -69.755667],
+                {}
+            ).addTo(map_21467a6dc6d88e079ab1868f13b8705f);
+        
+    
+            var icon_9d76d5edef1ff6c2e8bdc0971f2d8b0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83630273cf35f3ae271dd0b874d39cb6.setIcon(icon_9d76d5edef1ff6c2e8bdc0971f2d8b0a);
+        
+    
+        var popup_cdd43fe7250da916f9e0181543c6bdc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec21707ab1165b6fd886f31459dc7659 = $(`<div id="html_ec21707ab1165b6fd886f31459dc7659" style="width: 100.0%; height: 100.0%;">Mi Negocio</div>`)[0];
+            popup_cdd43fe7250da916f9e0181543c6bdc2.setContent(html_ec21707ab1165b6fd886f31459dc7659);
+        
+
+        marker_83630273cf35f3ae271dd0b874d39cb6.bindPopup(popup_cdd43fe7250da916f9e0181543c6bdc2)
+        ;
+
+        
+    
+</script>
+</html>
